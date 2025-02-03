@@ -1,9 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrodadosEnem.API", "MicrodadosEnem.API\MicrodadosEnem.API.csproj", "{9A194440-9A14-4A80-9239-F3230188F1A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Test", "0 - Test", "{3C8ED104-3EFA-4049-AB7D-5B38AC1A6C9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{487FFCFC-2026-41F1-AB70-C3D8376889B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{7B2BDE48-0B57-4E9B-B761-4721ECD37451}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{51B3B53A-8679-456F-8628-4CD956F80116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrodadosEnem.Test", "MicrodadosEnem.Test\MicrodadosEnem.Test.csproj", "{9FD8EAD2-56B5-4E6C-8896-5C51CC0BE871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrodadosEnem.Domain", "MicrodadosEnem.Domain\MicrodadosEnem.Domain.csproj", "{B54F0850-A6EC-4E5C-A836-5A8BEEEF9EAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{0F28A59B-B8AE-4FDF-9D8C-AEFB7DEF8F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrodadosEnem.Infra.Data", "MicrodadosEnem.Infra.Data\MicrodadosEnem.Infra.Data.csproj", "{27259AF3-CC68-4963-B8BC-2495B863849B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +31,27 @@ Global
 		{9A194440-9A14-4A80-9239-F3230188F1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A194440-9A14-4A80-9239-F3230188F1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A194440-9A14-4A80-9239-F3230188F1A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD8EAD2-56B5-4E6C-8896-5C51CC0BE871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD8EAD2-56B5-4E6C-8896-5C51CC0BE871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD8EAD2-56B5-4E6C-8896-5C51CC0BE871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD8EAD2-56B5-4E6C-8896-5C51CC0BE871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B54F0850-A6EC-4E5C-A836-5A8BEEEF9EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54F0850-A6EC-4E5C-A836-5A8BEEEF9EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54F0850-A6EC-4E5C-A836-5A8BEEEF9EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54F0850-A6EC-4E5C-A836-5A8BEEEF9EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27259AF3-CC68-4963-B8BC-2495B863849B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27259AF3-CC68-4963-B8BC-2495B863849B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27259AF3-CC68-4963-B8BC-2495B863849B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27259AF3-CC68-4963-B8BC-2495B863849B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A194440-9A14-4A80-9239-F3230188F1A2} = {487FFCFC-2026-41F1-AB70-C3D8376889B1}
+		{9FD8EAD2-56B5-4E6C-8896-5C51CC0BE871} = {3C8ED104-3EFA-4049-AB7D-5B38AC1A6C9B}
+		{B54F0850-A6EC-4E5C-A836-5A8BEEEF9EAF} = {7B2BDE48-0B57-4E9B-B761-4721ECD37451}
+		{0F28A59B-B8AE-4FDF-9D8C-AEFB7DEF8F8F} = {51B3B53A-8679-456F-8628-4CD956F80116}
+		{27259AF3-CC68-4963-B8BC-2495B863849B} = {0F28A59B-B8AE-4FDF-9D8C-AEFB7DEF8F8F}
 	EndGlobalSection
 EndGlobal
